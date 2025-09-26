@@ -1,6 +1,6 @@
 """
 🔑 Python logging 常見 Handler
-✅ 總結
+✅ 總結 2025.09.26 15:20 測試更新添加
 開發測試：StreamHandler + FileHandler 就夠用。
 正式專案：常搭配 RotatingFileHandler / TimedRotatingFileHandler，避免 log 爆掉。
 監控通知：SMTPHandler (寄信)、HTTPHandler (送到 API)、SysLogHandler (Linux)。
